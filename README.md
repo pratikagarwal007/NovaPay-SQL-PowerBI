@@ -18,7 +18,7 @@ Executive Summary <img width="1397" height="800" alt="image" src="https://github
 - **UK credit stress** in H2 2024: The NPL ratio rose from ~2.6% to 6.4% before recovering by April 2025.
 - **FX was a small drag (-$0.06M)**, so the improvement is operational, not currency-driven.
 
-What is in the repo:
+## What is in the repo
 | Folder | Contents |
 |---|---|
 |'sql/' |	Four scripts: setup, data-quality checks, reporting views, analysis queries (CTEs, window functions)
@@ -26,16 +26,16 @@ What is in the repo:
 |'data/' | The simulated CSV files
 |'docs/' |	Report PDF and screenshots
 
-Pages: Executive Summary | Budget vs Actual P&L | FX and Constant-Currency Bridge | Unit Economics | Forecast | Notes
+**Pages:** Executive Summary | Budget vs Actual P&L | FX and Constant-Currency Bridge | Unit Economics | Forecast | Notes
 
-How it was built:
+## How it was built
 Raw CSVs, loaded into a SQL Server staging schema, checked and cleaned (12 duplicate rows and 5 orphan keys found and documented), exposed through reporting views, and modelled in Power BI. The Notes page in the report lists the definitions and the data-quality log.
 
-Tools: SQL Server, Power BI, DAX
+**Tools:** SQL Server, Power BI, DAX
 
-To reproduce: Run the scripts in sql/ in order, after importing the CSVs from data/.
+**To reproduce:** Run the scripts in sql/ in order, after importing the CSVs from data/.
 
 Limitations: Simulated data, so the patterns are illustrative. The forecast holds remaining months at budget, and the model covers the income statement only.
 
-Author: 
+## Author 
 Pratik Agarwal | linkedin.com/in/pratik-agarwal-cfa-a78446182 | pratik.agarwal8@gmail.com
