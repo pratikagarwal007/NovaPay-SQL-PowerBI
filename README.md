@@ -1,6 +1,6 @@
-**NovaPay Financial Performance Report**
+# NovaPay Financial Performance Report
 
-A SQL Server + Power BI project on a simulated multi-currency fintech (payments and lending across the US, UK and India). It covers budget vs actual analysis, FX impact, unit economics and forecasting, from raw ledger data to an executive-ready report.
+A SQL Server + Power BI project on a **simulated multi-currency fintech** (payments and lending across the US, UK and India). It covers budget vs actual analysis, FX impact, unit economics and forecasting, from raw ledger data to an executive-ready report.
 
 > All data is simulated for a fictional company. No real company or figures are used.
 
@@ -35,7 +35,7 @@ Raw CSVs, loaded into a SQL Server staging schema, checked and cleaned (12 dupli
 
 **To reproduce:** Run the scripts in sql/ in order, after importing the CSVs from data/.
 
-Limitations: Simulated data, so the patterns are illustrative. The forecast holds remaining months at budget, and the model covers the income statement only.
+**Limitations:** Simulated data, so the patterns are illustrative. The forecast holds remaining months at budget, and the model covers the income statement only.
 
 ## Author 
 Pratik Agarwal | linkedin.com/in/pratik-agarwal-cfa-a78446182 | pratik.agarwal8@gmail.com
