@@ -2,21 +2,21 @@
 
 A SQL Server + Power BI project on a simulated multi-currency fintech (payments and lending across the US, UK and India). It covers budget vs actual analysis, FX impact, unit economics and forecasting, from raw ledger data to an executive-ready report.
 
-All data is simulated for a fictional company. No real company or figures are used.
+> All data is simulated for a fictional company. No real company or figures are used.
 
-Executive Summary
+Executive Summary <img width="1397" height="800" alt="image" src="https://github.com/user-attachments/assets/8a6e7c0b-1bb4-45a0-b023-52f5b1100785" />
 
-What it shows
-1. Variance Analysis: A full P&L against budget, drilling from account to cost center, with a bridge that separates real performance from currency movement.
-2. Forecasting: A latest-estimate view (actuals to a chosen month, budget after) against the original plan.
-3. Fintech Metrics: Take Rate, Net Interest Margin, Cost of Risk, NPL Ratio, CAC and revenue per employee, with 36-month trends by entity.
-4. Data Discipline: SQL cleaning and reconciliation, with every figure in the report tied back to a SQL checkpoint.
+## What it shows
+- **Variance Analysis:** A full P&L against budget, drilling from account to cost center, with a bridge that separates real performance from currency movement.
+- **Forecasting:** A latest-estimate view (actuals to a chosen month, budget after) against the original plan.
+- **Fintech Metrics:** Take Rate, Net Interest Margin, Cost of Risk, NPL Ratio, CAC and revenue per employee, with 36-month trends by entity.
+- **Data Discipline:** SQL cleaning and reconciliation, with every figure in the report tied back to a SQL checkpoint.
 
-Key Findings (FY2025)
-1. Revenue of $53.09M was about $2.4M (4.8%) ahead of budget; net operating income was -$0.82M against -$1.64M budgeted.
-2. The US drove the beat (+$1.27M operating variance), partly offset by higher network costs (-$1.06M).
-3. UK credit stress in H2 2024: The NPL ratio rose from ~2.6% to 6.4% before recovering by April 2025.
-4. FX was a small drag (-$0.06M), so the improvement is operational, not currency-driven.
+## Key Findings (FY2025)
+- Revenue of $53.09M was about **$2.4M (4.8%) ahead of budget**; net operating income was **-$0.82M against -$1.64M budgeted**.
+- The **US drove the beat** (+$1.27M operating variance), partly offset by higher network costs (-$1.06M).
+- **UK credit stress** in H2 2024: The NPL ratio rose from ~2.6% to 6.4% before recovering by April 2025.
+- **FX was a small drag (-$0.06M)**, so the improvement is operational, not currency-driven.
 
 What is in the repo:
 | Folder | Contents |
