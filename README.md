@@ -1,11 +1,12 @@
-NovaPay Financial Performance Report
+**NovaPay Financial Performance Report**
+
 A SQL Server + Power BI project on a simulated multi-currency fintech (payments and lending across the US, UK and India). It covers budget vs actual analysis, FX impact, unit economics and forecasting, from raw ledger data to an executive-ready report.
 
 All data is simulated for a fictional company. No real company or figures are used.
 
-Executive summary
+Executive Summary
 
-What it shows
+What it shows:
 Variance Analysis: A full P&L against budget, drilling from account to cost center, with a bridge that separates real performance from currency movement.
 Forecasting: A latest-estimate view (actuals to a chosen month, budget after) against the original plan.
 Fintech Metrics: Take Rate, Net Interest Margin, Cost of Risk, NPL Ratio, CAC and revenue per employee, with 36-month trends by entity.
@@ -17,7 +18,7 @@ Key Findings (FY2025)
 3. UK credit stress in H2 2024: The NPL ratio rose from ~2.6% to 6.4% before recovering by April 2025.
 4. FX was a small drag (-$0.06M), so the improvement is operational, not currency-driven.
 
-What is in the repo
+What is in the repo:
 | Folder | Contents |
 |---|---|
 |'sql/' |	Four scripts: setup, data-quality checks, reporting views, analysis queries (CTEs, window functions)
@@ -36,5 +37,5 @@ To reproduce: Run the scripts in sql/ in order, after importing the CSVs from da
 
 Limitations: Simulated data, so the patterns are illustrative. The forecast holds remaining months at budget, and the model covers the income statement only.
 
-Author
+Author: 
 Pratik Agarwal | linkedin.com/in/pratik-agarwal-cfa-a78446182 | pratik.agarwal8@gmail.com
