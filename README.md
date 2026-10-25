@@ -7,11 +7,10 @@ All data is simulated for a fictional company. No real company or figures are us
 Executive Summary
 
 What it shows
-
-Variance Analysis: A full P&L against budget, drilling from account to cost center, with a bridge that separates real performance from currency movement.
-Forecasting: A latest-estimate view (actuals to a chosen month, budget after) against the original plan.
-Fintech Metrics: Take Rate, Net Interest Margin, Cost of Risk, NPL Ratio, CAC and revenue per employee, with 36-month trends by entity.
-Data Discipline: SQL cleaning and reconciliation, with every figure in the report tied back to a SQL checkpoint.
+1. Variance Analysis: A full P&L against budget, drilling from account to cost center, with a bridge that separates real performance from currency movement.
+2. Forecasting: A latest-estimate view (actuals to a chosen month, budget after) against the original plan.
+3. Fintech Metrics: Take Rate, Net Interest Margin, Cost of Risk, NPL Ratio, CAC and revenue per employee, with 36-month trends by entity.
+4. Data Discipline: SQL cleaning and reconciliation, with every figure in the report tied back to a SQL checkpoint.
 
 Key Findings (FY2025)
 1. Revenue of $53.09M was about $2.4M (4.8%) ahead of budget; net operating income was -$0.82M against -$1.64M budgeted.
