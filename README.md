@@ -6,7 +6,8 @@ All data is simulated for a fictional company. No real company or figures are us
 
 Executive Summary
 
-What it shows:
+What it shows
+
 Variance Analysis: A full P&L against budget, drilling from account to cost center, with a bridge that separates real performance from currency movement.
 Forecasting: A latest-estimate view (actuals to a chosen month, budget after) against the original plan.
 Fintech Metrics: Take Rate, Net Interest Margin, Cost of Risk, NPL Ratio, CAC and revenue per employee, with 36-month trends by entity.
