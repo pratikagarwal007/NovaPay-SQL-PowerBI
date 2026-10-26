@@ -1,0 +1,4 @@
+entity_id,entity_name,region,currency
+1,NovaPay US,North America,USD
+2,NovaPay UK,Europe,GBP
+3,NovaPay India,Asia,INR
